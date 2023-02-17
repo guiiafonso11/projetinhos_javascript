@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/calculadora.png">
+    <script src="js/main.js"></script>
+
+    <title>Calculadora</title>
+    <style>
+        body {
+            background-color: rgb(15, 147, 255);
+            text-align: center;
+        }
+
+        .calculadoraIMG {
+            width: 150px;
+
+        }
+
+        input.somar,
+        .subtrair,
+        .dividir,
+        .multiplicar {
+            width: 200px;
+            height: 50px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        #resultado {
+            font-size: 2rem;
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+            align-self: center;
+        }
+
+        .res{
+            text-align: center;
+            margin:0 auto;
+            margin-top: 30px;
+            padding: 15px;
+            background-color: white;
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="calculadora.png" alt="" srcset="" class="calculadoraIMG">
+    <h1>MEGA CALCULADORA MUTCHO DOIDA</h1>
+    <h2>DIGITE OS NUMEROS DA OPERAÇAO</h2>
+
+
+    <input type="number" class="numero1" id="numero1"> </input>
+    <input type="number" class="numero2" id="numero2"> </input>
+
+
+
+    <input type="button" value="+" name="numSomar" class="somar" onclick="somar()">
+
+    <input type="button" value="-" name="numSubtrair" class="subtrair" onclick="subtrair()">
+
+    <input type="button" value="/" name="numDividir" class="dividir" onclick="dividir()">
+
+    <input type="button" value="x" name="numMultiplicar" class="multiplicar" onclick="multiplicar()">
+    <div class="res">
+        <h3 id="resultado">Resultado:
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

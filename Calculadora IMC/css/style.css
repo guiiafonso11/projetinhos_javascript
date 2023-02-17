@@ -1,0 +1,63 @@
+body {
+    background-color: #00008c;
+    font-size: large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.main{
+    display: inline-block;    
+}
+.principal {
+    border-radius: 20px;
+    border: 1px solid #000000;
+    box-shadow: 10px 10px 5px #000000;
+    margin: auto;
+    margin-top: 80px;
+    height: 600px;
+    width: 500px;
+    background-color: #11099e;
+    color: white;
+}
+
+.peso,
+.altura,
+.titulo,
+.textoResultado
+ {
+    text-align: center;
+}
+
+.inputPeso,
+.inputAltura {
+    display: flex;
+    margin: auto;
+    height: 50px;
+    width: 400px;
+    border-radius: 20px;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+.inputBotao {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #000000;
+    border-radius: 40px;
+    color:white;
+}
+
+.fundoPreto{
+    background-color: black;
+    margin: auto;
+    width: 400px;
+    margin-top: 30px;
+    height: 110px;
+}
+.resultado, .nivelIMC {
+    text-align: center;
+    margin: auto;
+    color: yellow;
+}
